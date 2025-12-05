@@ -3,188 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Representante comercial especializado em bombas de água industriais, oferecendo soluções completas, consultoria técnica e suporte especializado.">
-    <meta name="keywords" content="bombas de água industriais, representante comercial, bombas centrífugas, bombas submersíveis, sistemas de bombeamento, consultoria hidráulica">
-    <title>JH Representações - Especialista em Bombas de Água Industriais</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
-    <!-- Google Fonts (Exemplo: Roboto) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Representante de Bombas de Água Industriais - JH Representações</title>
+    <meta name="description" content="Especialista em bombas de água industriais e sistemas de bombeamento. Oferecemos soluções hidráulicas de alta qualidade com experiência comprovada.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23003E7C'/><text x='50' y='65' font-family='Arial' font-size='50' fill='white' text-anchor='middle'>JH</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Header -->
-    <header class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <header id="header">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">JH Representações</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sobre.html">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="produtos.html">Produtos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="marcas.html">Marcas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="servicos.html">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contato.html">Contato</a>
-                    </li>
+            <h1 class="logo">JH Representações</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#beneficios">Benefícios</a></li>
+                    <li><a href="#marcas">Marcas</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
-            </div>
+                <button class="cta-button" onclick="scrollToSection('contato')">Solicitar Orçamento</button>
+                <div class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" role="button" tabindex="0">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
         </div>
     </header>
 
-    <main>
-        <!-- Hero Banner -->
-        <section id="hero" class="d-flex align-items-center text-center">
-            <div class="container">
-                <h1 class="display-3 fw-bold">Soluções Completas em Bombas Industriais</h1>
-                <p class="lead my-4">Credibilidade, técnica e robustez para garantir o fluxo perfeito da sua operação.</p>
-                <a href="contato.html" class="btn btn-primary btn-lg">Solicite um Orçamento</a>
-            </div>
-        </section>
-
-        <!-- Destaques -->
-        <section id="destaques" class="py-5">
-            <div class="container">
-                <div class="text-center mb-5">
-                    <h2 class="fw-bold">Nossos Diferenciais</h2>
-                    <p class="lead text-muted">A parceria ideal para sua indústria.</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 text-center">
-                        <div class="feature-icon mb-3">
-                            <i class="bi bi-gear-wide-connected fs-1"></i>
-                        </div>
-                        <h3 class="fs-4 fw-bold">Produtos de Ponta</h3>
-                        <p>Trabalhamos com as melhores marcas do mercado para oferecer equipamentos de alta performance e durabilidade.</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <div class="feature-icon mb-3">
-                            <i class="bi bi-headset fs-1"></i>
-                        </div>
-                        <h3 class="fs-4 fw-bold">Suporte Técnico</h3>
-                        <p>Nossa equipe oferece consultoria especializada para encontrar a solução ideal para sua necessidade.</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <div class="feature-icon mb-3">
-                            <i class="bi bi-check-circle fs-1"></i>
-                        </div>
-                        <h3 class="fs-4 fw-bold">Confiança e Experiência</h3>
-                        <p>Anos de experiência no setor, garantindo um serviço de confiança e resultados comprovados.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Produtos em Destaque -->
-        <section id="produtos-destaque" class="py-5 bg-light">
-            <div class="container">
-                <div class="text-center mb-5">
-                    <h2 class="fw-bold">Produtos em Destaque</h2>
-                    <p class="lead text-muted">Equipamentos robustos para as mais diversas aplicações industriais.</p>
-                </div>
-                <div class="row g-4">
-                    <!-- Produto 1 -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100">
-                            <img src="https://via.placeholder.com/400x300.png?text=Bomba+Centrífuga" class="card-img-top" alt="Bomba Centrífuga">
-                            <div class="card-body">
-                                <h5 class="card-title">Bombas Centrífugas</h5>
-                                <p class="card-text">Ideais para transferência de líquidos em aplicações de média e alta vazão.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="produtos.html" class="btn btn-secondary">Ver Detalhes</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Produto 2 -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100">
-                            <img src="https://via.placeholder.com/400x300.png?text=Bomba+Submersível" class="card-img-top" alt="Bomba Submersível">
-                            <div class="card-body">
-                                <h5 class="card-title">Bombas Submersíveis</h5>
-                                <p class="card-text">Solução eficiente para drenagem, esgotamento e captação de água bruta.</p>
-                            </div>
-                             <div class="card-footer">
-                                <a href="produtos.html" class="btn btn-secondary">Ver Detalhes</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Produto 3 -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100">
-                            <img src="https://via.placeholder.com/400x300.png?text=Sistema+de+Pressurização" class="card-img-top" alt="Sistema de Pressurização">
-                            <div class="card-body">
-                                <h5 class="card-title">Sistemas de Pressurização</h5>
-                                <p class="card-text">Mantenha a pressão da sua rede hidráulica estável e confiável.</p>
-                            </div>
-                             <div class="card-footer">
-                                <a href="produtos.html" class="btn btn-secondary">Ver Detalhes</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Marcas Representadas -->
-        <section id="marcas" class="py-5">
-            <div class="container">
-                <div class="text-center mb-5">
-                    <h2 class="fw-bold">Marcas Representadas</h2>
-                    <p class="lead text-muted">Parceria com os líderes globais do setor.</p>
-                </div>
-                <div class="row align-items-center text-center">
-                    <div class="col-6 col-md-3">
-                        <img src="https://via.placeholder.com/200x100.png?text=Marca+A" class="img-fluid" alt="Logo Marca A">
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <img src="https://via.placeholder.com/200x100.png?text=Marca+B" class="img-fluid" alt="Logo Marca B">
-                    </div>
-                    <div class="col-6 col-md-3 mt-4 mt-md-0">
-                        <img src="https://via.placeholder.com/200x100.png?text=Marca+C" class="img-fluid" alt="Logo Marca C">
-                    </div>
-                    <div class="col-6 col-md-3 mt-4 mt-md-0">
-                        <img src="https://via.placeholder.com/200x100.png?text=Marca+D" class="img-fluid" alt="Logo Marca D">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center p-4 mt-5">
+    <section id="hero" class="hero">
         <div class="container">
-            <p class="mb-0">&copy; 2025 JH Representações. Todos os direitos reservados.</p>
-            <p>Contato: (11) 99999-8888 | email@jhrepresentacoes.com.br</p>
+            <h1>Soluções Hidráulicas para Indústria</h1>
+            <p>Especialistas em bombas de água industriais e sistemas de bombeamento de alto desempenho.</p>
+            <button class="cta-button" onclick="scrollToSection('contato')">Falar com o Consultor</button>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p>Com décadas de experiência no setor, somos representantes autorizados de marcas líderes em bombas de água industriais. Oferecemos soluções completas para sistemas de bombeamento, garantindo eficiência, durabilidade e suporte técnico especializado.</p>
+                    <p>Nossa missão é fornecer produtos de alta qualidade que atendam às necessidades específicas de cada cliente, contribuindo para o sucesso dos projetos industriais.</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1537462715879-360eebcfd89a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Ilustração de engenharia hidráulica" class="sobre-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos" class="produtos">
+        <div class="container">
+            <h2>Nossas Soluções</h2>
+            <div class="produtos-grid">
+                <div class="produto-card">
+                    <h3>Bombas Centrífugas</h3>
+                    <p>Ideais para aplicações industriais de médio e alto fluxo.</p>
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>
+                <div class="produto-card">
+                    <h3>Bombas Submersas</h3>
+                    <p>Soluções robustas para poços profundos e tratamento de águas residuais.</p>
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>
+                <div class="produto-card">
+                    <h3>Bombas Industriais</h3>
+                    <p>Equipamentos de alta pressão para processos industriais diversos.</p>
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>
+                <div class="produto-card">
+                    <h3>Sistemas de Pressurização</h3>
+                    <p>Soluções completas para manutenção de pressão em sistemas hidráulicos.</p>
+                    <button class="saiba-mais">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="beneficios">
+        <div class="container">
+            <h2>Por Que Escolher Nossas Soluções?</h2>
+            <div class="beneficios-grid">
+                <div class="beneficio-item">
+                    <span class="icon">&#128200;</span>
+                    <h3>Economia</h3>
+                    <p>Produtos com baixo consumo energético e manutenção reduzida.</p>
+                </div>
+                <div class="beneficio-item">
+                    <span class="icon">&#128736;</span>
+                    <h3>Durabilidade</h3>
+                    <p>Equipamentos projetados para operar em condições extremas.</p>
+                </div>
+                <div class="beneficio-item">
+                    <span class="icon">&#128222;</span>
+                    <h3>Assistência Técnica</h3>
+                    <p>Suporte completo antes, durante e após a instalação.</p>
+                </div>
+                <div class="beneficio-item">
+                    <span class="icon">&#128640;</span>
+                    <h3>Alto Desempenho</h3>
+                    <p>Tecnologia avançada para máxima eficiência operacional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="marcas" class="marcas">
+        <div class="container">
+            <h2>Marcas Representadas</h2>
+            <div class="carousel">
+                <div class="carousel-track">
+                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+1" alt="Marca 1 representada"></div>
+                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+2" alt="Marca 2 representada"></div>
+                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+3" alt="Marca 3 representada"></div>
+                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+4" alt="Marca 4 representada"></div>
+                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+1" alt="Marca 1 representada"></div>
+                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+2" alt="Marca 2 representada"></div>
+                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+3" alt="Marca 3 representada"></div>
+                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+4" alt="Marca 4 representada"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="depoimentos">
+        <div class="container">
+            <h2>Depoimentos de Clientes</h2>
+            <div class="slider">
+                <div class="slide">
+                    <p>"Excelente atendimento e produtos de alta qualidade. Recomendo!"</p>
+                    <cite>- Empresa ABC</cite>
+                </div>
+                <div class="slide">
+                    <p>"Soluções eficientes que atenderam todas as nossas necessidades."</p>
+                    <cite>- Indústria XYZ</cite>
+                </div>
+                <div class="slide">
+                    <p>"Suporte técnico excepcional e durabilidade comprovada."</p>
+                    <cite>- Companhia DEF</cite>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <button class="prev" aria-label="Previous testimonial">&larr;</button>
+                <button class="next" aria-label="Next testimonial">&rarr;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form id="contact-form">
+                <label for="name" class="sr-only">Nome</label>
+                <input type="text" id="name" placeholder="Nome" required>
+                <label for="email" class="sr-only">E-mail</label>
+                <input type="email" id="email" placeholder="E-mail" required>
+                <label for="phone" class="sr-only">Telefone</label>
+                <input type="tel" id="phone" placeholder="Telefone" required>
+                <label for="message" class="sr-only">Mensagem</label>
+                <textarea id="message" placeholder="Mensagem" required></textarea>
+                <button type="submit" class="cta-button">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 JH Representações. Todos os direitos reservados.</p>
+            <p>Especialistas em bombas de água industriais e sistemas de bombeamento.</p>
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <!-- Custom JS -->
-    <script src="assets/js/script.js"></script>
+    <div class="whatsapp-float">
+        <a href="https://wa.me/5511999999999" target="_blank" aria-label="Fale conosco no WhatsApp">
+            <img src="https://img.icons8.com/color/48/whatsapp.png" alt="Fale conosco no WhatsApp">
+        </a>
+    </div>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">&uarr;</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
