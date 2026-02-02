@@ -1,189 +1,278 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Representante de Bombas de Água Industriais - JH Representações</title>
-    <meta name="description" content="Especialista em bombas de água industriais e sistemas de bombeamento. Oferecemos soluções hidráulicas de alta qualidade com experiência comprovada.">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23003E7C'/><text x='50' y='65' font-family='Arial' font-size='50' fill='white' text-anchor='middle'>JH</text></svg>">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>JH Representações | Bombas d’Água em Pernambuco</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="description" content="Venda, garantia e suporte técnico em bombas d’água em Pernambuco. Especialistas há 5 anos.">
+  <meta name="keywords" content="bombas d'água Pernambuco, suporte técnico bombas, venda de bombas PE">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
-    <header id="header">
-        <div class="container">
-            <h1 class="logo">JH Representações</h1>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#hero">Início</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#beneficios">Benefícios</a></li>
-                    <li><a href="#marcas">Marcas</a></li>
-                    <li><a href="#depoimentos">Depoimentos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-                <button class="cta-button" onclick="scrollToSection('contato')">Solicitar Orçamento</button>
-                <div class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" role="button" tabindex="0">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-        </div>
-    </header>
 
-    <section id="hero" class="hero">
-        <div class="container">
-            <h1>Soluções Hidráulicas para Indústria</h1>
-            <p>Especialistas em bombas de água industriais e sistemas de bombeamento de alto desempenho.</p>
-            <button class="cta-button" onclick="scrollToSection('contato')">Falar com o Consultor</button>
-        </div>
-    </section>
+<header class="topo">
+  <div class="container">
+    <h1>JH Representações</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
 
-    <section id="sobre" class="sobre">
-        <div class="container">
-            <h2>Sobre Nós</h2>
-            <div class="sobre-content">
-                <div class="sobre-text">
-                    <p>Com décadas de experiência no setor, somos representantes autorizados de marcas líderes em bombas de água industriais. Oferecemos soluções completas para sistemas de bombeamento, garantindo eficiência, durabilidade e suporte técnico especializado.</p>
-                    <p>Nossa missão é fornecer produtos de alta qualidade que atendam às necessidades específicas de cada cliente, contribuindo para o sucesso dos projetos industriais.</p>
-                </div>
-                <img src="https://images.unsplash.com/photo-1537462715879-360eebcfd89a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Ilustração de engenharia hidráulica" class="sobre-image">
-            </div>
-        </div>
-    </section>
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay"></div>
 
-    <section id="produtos" class="produtos">
-        <div class="container">
-            <h2>Nossas Soluções</h2>
-            <div class="produtos-grid">
-                <div class="produto-card">
-                    <h3>Bombas Centrífugas</h3>
-                    <p>Ideais para aplicações industriais de médio e alto fluxo.</p>
-                    <button class="saiba-mais">Saiba Mais</button>
-                </div>
-                <div class="produto-card">
-                    <h3>Bombas Submersas</h3>
-                    <p>Soluções robustas para poços profundos e tratamento de águas residuais.</p>
-                    <button class="saiba-mais">Saiba Mais</button>
-                </div>
-                <div class="produto-card">
-                    <h3>Bombas Industriais</h3>
-                    <p>Equipamentos de alta pressão para processos industriais diversos.</p>
-                    <button class="saiba-mais">Saiba Mais</button>
-                </div>
-                <div class="produto-card">
-                    <h3>Sistemas de Pressurização</h3>
-                    <p>Soluções completas para manutenção de pressão em sistemas hidráulicos.</p>
-                    <button class="saiba-mais">Saiba Mais</button>
-                </div>
-            </div>
-        </div>
-    </section>
+  <div class="hero-content">
+    <span class="badge">🛡️ 5 Anos de Excelência em Pernambuco</span>
 
-    <section id="beneficios" class="beneficios">
-        <div class="container">
-            <h2>Por Que Escolher Nossas Soluções?</h2>
-            <div class="beneficios-grid">
-                <div class="beneficio-item">
-                    <span class="icon">&#128200;</span>
-                    <h3>Economia</h3>
-                    <p>Produtos com baixo consumo energético e manutenção reduzida.</p>
-                </div>
-                <div class="beneficio-item">
-                    <span class="icon">&#128736;</span>
-                    <h3>Durabilidade</h3>
-                    <p>Equipamentos projetados para operar em condições extremas.</p>
-                </div>
-                <div class="beneficio-item">
-                    <span class="icon">&#128222;</span>
-                    <h3>Assistência Técnica</h3>
-                    <p>Suporte completo antes, durante e após a instalação.</p>
-                </div>
-                <div class="beneficio-item">
-                    <span class="icon">&#128640;</span>
-                    <h3>Alto Desempenho</h3>
-                    <p>Tecnologia avançada para máxima eficiência operacional.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <h2>
+      Bombas d’Água de Alta Performance<br>
+      <strong>Especialistas em Pernambuco</strong>
+    </h2>
 
-    <section id="marcas" class="marcas">
-        <div class="container">
-            <h2>Marcas Representadas</h2>
-            <div class="carousel">
-                <div class="carousel-track">
-                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+1" alt="Marca 1 representada"></div>
-                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+2" alt="Marca 2 representada"></div>
-                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+3" alt="Marca 3 representada"></div>
-                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+4" alt="Marca 4 representada"></div>
-                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+1" alt="Marca 1 representada"></div>
-                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+2" alt="Marca 2 representada"></div>
-                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+3" alt="Marca 3 representada"></div>
-                    <div class="marca"><img src="https://via.placeholder.com/150x100/00ADEF/FFFFFF?text=Marca+4" alt="Marca 4 representada"></div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <p>
+      Há 5 anos oferecendo vendas, garantia e suporte técnico especializado
+      para residências, indústrias e agricultura em todo o estado de Pernambuco.
+    </p>
 
-    <section id="depoimentos" class="depoimentos">
-        <div class="container">
-            <h2>Depoimentos de Clientes</h2>
-            <div class="slider">
-                <div class="slide">
-                    <p>"Excelente atendimento e produtos de alta qualidade. Recomendo!"</p>
-                    <cite>- Empresa ABC</cite>
-                </div>
-                <div class="slide">
-                    <p>"Soluções eficientes que atenderam todas as nossas necessidades."</p>
-                    <cite>- Indústria XYZ</cite>
-                </div>
-                <div class="slide">
-                    <p>"Suporte técnico excepcional e durabilidade comprovada."</p>
-                    <cite>- Companhia DEF</cite>
-                </div>
-            </div>
-            <div class="slider-nav">
-                <button class="prev" aria-label="Previous testimonial">&larr;</button>
-                <button class="next" aria-label="Next testimonial">&rarr;</button>
-            </div>
-        </div>
-    </section>
-
-    <section id="contato" class="contato">
-        <div class="container">
-            <h2>Entre em Contato</h2>
-            <form id="contact-form">
-                <label for="name" class="sr-only">Nome</label>
-                <input type="text" id="name" placeholder="Nome" required>
-                <label for="email" class="sr-only">E-mail</label>
-                <input type="email" id="email" placeholder="E-mail" required>
-                <label for="phone" class="sr-only">Telefone</label>
-                <input type="tel" id="phone" placeholder="Telefone" required>
-                <label for="message" class="sr-only">Mensagem</label>
-                <textarea id="message" placeholder="Mensagem" required></textarea>
-                <button type="submit" class="cta-button">Enviar Mensagem</button>
-            </form>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 JH Representações. Todos os direitos reservados.</p>
-            <p>Especialistas em bombas de água industriais e sistemas de bombeamento.</p>
-        </div>
-    </footer>
-
-    <div class="whatsapp-float">
-        <a href="https://wa.me/5511999999999" target="_blank" aria-label="Fale conosco no WhatsApp">
-            <img src="https://img.icons8.com/color/48/whatsapp.png" alt="Fale conosco no WhatsApp">
-        </a>
+    <div class="hero-actions">
+      <a href="https://wa.me/5581988643400" class="whatsapp>
+        Solicitar Orçamento Agora →
+      </a>
+      <a href="#servicos" class="btn-secondary">
+        FALE CONOSCO
+      </a>
     </div>
 
-    <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">&uarr;</button>
+    <div class="hero-infos">
+      <div class="info-card">
+        🛡️
+        <div>
+          <strong>Garantia</strong>
+          <span>Até 2 anos</span>
+        </div>
+      </div>
 
-    <script src="script.js"></script>
+      <div class="info-card">
+        🔧
+        <div>
+          <strong>Suporte</strong>
+          <span>Técnico especializado</span>
+        </div>
+      </div>
+
+      <div class="info-card">
+        📍
+        <div>
+          <strong>Cobertura</strong>
+          <span>Todo Pernambuco</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= SOBRE NÓS ================= -->
+<section class="sobre">
+  <div class="sobre-container">
+
+    <header class="sobre-header">
+      <span class="sobre-tag">SOBRE NÓS</span>
+      <h2>Conheça a JH Representações</h2>
+      <p>
+        Há 5 anos levando soluções em bombeamento de água
+        para todo o estado de Pernambuco.
+      </p>
+    </header>
+
+    <div class="sobre-conteudo">
+      <div class="sobre-texto">
+        <h3>Sua parceira em soluções de bombeamento</h3>
+
+        <p>
+          A <strong>JH Representações</strong> é uma empresa especializada
+          na representação e comercialização de bombas d’água, com atuação
+          focada no estado de <strong>Pernambuco</strong>.
+        </p>
+
+        <p>
+          Com <strong>5 anos de experiência</strong> no mercado, oferecemos
+          não apenas a venda de equipamentos de alta qualidade, mas também
+          <strong>garantia completa</strong> e
+          <strong>suporte técnico especializado</strong>.
+        </p>
+
+        <p>
+          Representamos a marca <strong>LEPONO</strong>, referência internacional
+          em qualidade e inovação no segmento de motobombas, com produtos
+          exportados para mais de <strong>150 países</strong>.
+        </p>
+      </div>
+
+      <div class="sobre-destaque">
+        <span>5</span>
+        <small>Anos de experiência</small>
+      </div>
+    </div>
+
+    <div class="sobre-cards">
+      <div class="card">
+        <h4>Missão</h4>
+        <p>
+          Fornecer soluções em bombeamento de água com excelência,
+          garantindo qualidade, confiança e suporte técnico especializado
+          para nossos clientes em Pernambuco.
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Visão</h4>
+        <p>
+          Ser a principal referência em representação de bombas d’água
+          no estado de Pernambuco, reconhecida pela qualidade dos produtos
+          e atendimento diferenciado.
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Valores</h4>
+        <p>
+          Compromisso com o cliente, transparência nas relações,
+          qualidade em tudo que fazemos e responsabilidade com o meio ambiente.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ================= nossos produtos ================= -->
+<section class="sobre">
+  <div class="sobre-container">
+
+    <header class="sobre-header">
+      <span class="sobre-tag">NOSSOS PRODUTOS</span>
+      <h2>Catálogo LEPONO</h2>
+      <p>
+        Linha completa de bombas d'água com garantia de até 2 anos. Soluções para residências, comércios, indústrias e agricultura.
+      </p>
+    </header>
+
+   
+
+     
+    </div>
+
+    <div class="sobre-cards">
+      <div class="card">
+        <h4>Linha Superfície</h4>
+        <p>
+          Bombas periféricas, centrífugas e autoaspirantes para uso residencial e comercial.
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Linha Submersível</h4>
+        <p>
+          Bombas submersíveis para poços, cisternas e sistemas de drenagem.
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Linha Submersa</h4>
+        <p>
+          Bombas para poços profundos de 2" a 5" com alta eficiência.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =================pegou  ================= -->
+  <section class="servicos" id="servicos">
+  <div class="servicos-container">
+
+    <header class="servicos-header">
+      <span class="servicos-tag">NOSSOS SERVIÇOS</span>
+      <h2>Soluções completas em bombeamento</h2>
+      <p>
+        Mais do que vender bombas, oferecemos uma experiência completa,
+        do atendimento técnico ao suporte pós-venda.
+      </p>
+    </header>
+
+    <div class="servicos-grid">
+
+      <div class="servico-card">
+        <div class="servico-icon">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+        <h4>Vendas Especializadas</h4>
+        <p>Comercialização de bombas d’água LEPONO.</p>
+        <ul>
+          <li>Análise técnica</li>
+          <li>Indicação correta</li>
+          <li>Orçamento sem compromisso</li>
+        </ul>
+      </div>
+
+      <div class="servico-card">
+        <div class="servico-icon">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <h4>Garantia Completa</h4>
+        <p>Todos os produtos com garantia de fábrica.</p>
+        <ul>
+          <li>Até 2 anos</li>
+          <li>Acionamento rápido</li>
+          <li>Processo simplificado</li>
+        </ul>
+      </div>
+
+      <div class="servico-card">
+        <div class="servico-icon">
+          <i class="fas fa-tools"></i>
+        </div>
+        <h4>Suporte Técnico</h4>
+        <p>Equipe especializada para te ajudar.</p>
+        <ul>
+          <li>Instalação</li>
+          <li>Diagnóstico</li>
+          <li>Pós-venda</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= pegou ================= -->
+
+
+<!-- CONTATO -->
+<section id="contato" class="contato">
+  <h3>Fale com a JH Representações</h3>
+  <p>📞 (81) 98864-3400 | ✉️ jhpromocoes23@gmail.com</p>
+</section>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/5581988643400" class="whatsapp" target="_blank">
+  💬
+</a>
+
+
 </body>
 </html>
