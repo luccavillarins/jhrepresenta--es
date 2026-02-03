@@ -1,7 +1,6 @@
 
 
-/* ================= HEADER ================= */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Lato:wght@400;700&display=swap');
 
 /* ================= RESET BÁSICO ================= */
 * {
@@ -11,9 +10,16 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
   background: #f5f5f5;
-  color: #222;
+  color: #444;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #0a2540;
 }
 
 /* ================= CONTAINER PADRÃO ================= */
@@ -120,10 +126,11 @@ body {
   font-size: 42px;
   line-height: 1.2;
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .hero h2 strong {
-  color: #f57c00; /* mantém o laranja */
+  color: #f57c00;
 }
 
 /* Texto */
@@ -280,9 +287,9 @@ body {
 }
 
 .sobre-header h2 {
-  font-size: 36px;
-  color: #0a2540;
+  font-size: 38px;
   letter-spacing: -0.5px;
+  font-weight: 700;
 }
 
 .sobre-header h2::after {
@@ -310,8 +317,7 @@ body {
 }
 
 .sobre-texto h3 {
-  font-size: 24px;
-  color: #0a2540;
+  font-size: 26px;
 }
 
 .sobre-texto p {
@@ -388,9 +394,9 @@ body {
 }
 
 .servicos-header h2 {
-  font-size: 36px;
-  color: #0a2540;
+  font-size: 38px;
   letter-spacing: -0.5px;
+  font-weight: 700;
 }
 
 .servicos-header h2::after {
