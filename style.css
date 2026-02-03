@@ -148,7 +148,7 @@ body {
   color: #fff;
 
   border-radius: 50%;
-  font-size: 26px;
+  font-size: 36px;
 
   display: flex;
   align-items: center;
@@ -323,13 +323,26 @@ body {
 .sobre-destaque {
   background: linear-gradient(145deg, #ff8c2b, #e67616);
   color: #fff;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
+  padding: 40px 20px;
+  border-radius: 14px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.sobre-destaque h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  line-height: 1.2;
+}
+
+.sobre-destaque p {
+  font-size: 18px;
+  margin: 0;
+  opacity: 0.9;
 }
 
 .sobre-cards {
