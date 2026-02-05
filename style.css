@@ -22,6 +22,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #0a2540;
 }
 
+p {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
 /* ================= CONTAINER PADRÃO ================= */
 .container {
   max-width: 1200px;
@@ -266,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ================= SOBRE ================= */
 .sobre {
   background: #f7f9fb;
-  padding: 100px 30px;
+  padding: 100px 20px;
 }
 
 .sobre-container {
@@ -277,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 .sobre-header {
   text-align: center;
   max-width: 700px;
-  margin: 0 auto 80px;
+  margin: 0 auto 70px;
 }
 
 .sobre-tag {
@@ -287,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sobre-header h2 {
-  font-size: 38px;
+  font-size: 2.375rem; /* 38px */
   letter-spacing: -0.5px;
   font-weight: 700;
 }
@@ -303,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sobre-header p {
-  font-size: 17px;
+  font-size: 1.0625rem; /* 17px */
   color: #555;
 }
 
@@ -317,13 +322,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sobre-texto h3 {
-  font-size: 26px;
+  font-size: 1.625rem; /* 26px */
+  margin-bottom: 1rem;
 }
 
 .sobre-texto p {
-  font-size: 16px;
+  font-size: 1.05rem;
   color: #444;
   margin-bottom: 18px;
+  max-width: 70ch;
 }
 
 .sobre-destaque {
@@ -336,17 +343,18 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  align-self: start;
 }
 
 .sobre-destaque h4 {
-  font-size: 22px;
+  font-size: 1.375rem; /* 22px */
   font-weight: bold;
   margin: 0 0 5px 0;
   line-height: 1.2;
 }
 
 .sobre-destaque p {
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px */
   margin: 0;
   opacity: 0.9;
 }
@@ -366,13 +374,18 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.35s ease;
 }
 
+.card h4 {
+    font-size: 1.25rem; /* 20px */
+    margin-bottom: 15px;
+}
+
 .card:hover {
   transform: translateY(-8px);
 }
 
 /* ================= SERVIÇOS ================= */
 .servicos {
-  padding: 100px 30px;
+  padding: 100px 20px;
   background: #ffffff;
 }
 
@@ -394,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .servicos-header h2 {
-  font-size: 38px;
+  font-size: 2.375rem; /* 38px */
   letter-spacing: -0.5px;
   font-weight: 700;
 }
@@ -431,6 +444,11 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(0);
 }
 
+.servico-card h4 {
+    font-size: 1.25rem; /* 20px */
+    margin-bottom: 15px;
+}
+
 .servico-card:hover {
   transform: translateY(-8px);
 }
@@ -452,9 +470,37 @@ h1, h2, h3, h4, h5, h6 {
   background: #0a2540;
   color: #fff;
   text-align: center;
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
 
+.contato h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contato p {
+    color: #f1f1f1;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    background: #1f2a33;
+    color: #e2e2e2;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+    color: #e2e2e2;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 /* ================= ANIMAÇÃO ================= */
@@ -478,6 +524,11 @@ h1, h2, h3, h4, h5, h6 {
   .sobre-conteudo {
     grid-template-columns: 1fr;
     text-align: center;
+  }
+  
+  .sobre-texto p {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .sobre-destaque {
